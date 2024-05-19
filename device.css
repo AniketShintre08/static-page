@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    text-align: center;
+}
+#tb{
+    display: none;
+}
+#mb{
+    display: none;
+}
+/* ===========mobile========== */
+@media (max-width:600px){
+    body{
+        background-color: yellow;
+        text-align: center;
+    }
+    #mb{
+        display: block;
+    }
+    #dk{
+        display: none;
+    }
+}
+@media (min-width:601px) and (max-width:1000px){
+    body{
+        background-color: violet;
+        text-align: center;
+    }
+    #tb{
+        display: block;
+    }
+    #dk{
+        display: none;
+    }
+}
